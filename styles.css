@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.div1, .div2 ,.div3{
+	height:40px;
+	width:40px;
+	box-sizing:border-box;
+	border:none;
+	margin-right:2px;
+}
+.div1{
+	background-color:green;
+}
+.div2{
+	background-color:red;
+}
+.div3{
+	background-color:blue;
+}
